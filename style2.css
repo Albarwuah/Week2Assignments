@@ -1,0 +1,91 @@
+
+/* every page div using this template*/
+div
+{
+    
+    color: beige;
+    background-color:rgb(150, 208, 231);
+    text-align: center;
+    border-bottom: 3cm;
+}
+/* every page body using this template*/
+body
+{
+    background-color: aqua;
+    font-size: 35px;
+    border-color: antiquewhite;
+}
+/*  for all headers in all pages*/
+h1
+{
+    background-color: rgba(178, 178, 245, 0.448); 
+    font-size: 75px; 
+    text-align: center;
+    color: purple;
+}
+/*  my second header*/
+
+h2{
+    font-size: 90px;
+    background-color: blanchedalmond;
+    text-align:center;
+    color: lightsalmon;
+
+}
+/* shadowing football and giving it a baclground*/
+.shadow{
+    text-shadow:rgb(218, 171, 16) 10px 5px;
+    background-color: rgb(113, 153, 160);
+}
+
+/*  league.html to make it easier to read*/
+
+.even li:nth-child(even){
+    background-color: rgb(131, 201, 172);
+}
+
+/* ID in champions.html*/
+
+#same{
+    background-color: red;
+    border-radius: 93px;
+    padding: 5px;
+   }
+
+
+
+form{
+background-color: rgba(255, 223, 183, 0.987);
+border-bottom: 34cm;
+border-radius: 2%;
+text-decoration:wavy;
+border-width: 45cm; 
+color:rgb(121, 139, 83);
+}
+/*champions table*/
+table{
+    background-color: rgba(247, 27, 247, 0.747);
+    color:mintcream;
+    border-color:rgb(159, 126, 68);
+    border-width: 100px;
+    border-collapse: collapse;
+    width: 100%;
+}
+/* table head */
+
+ th
+ {
+    border-color:floralwhite;
+    border-style:double; 
+    border-color: rgb(51, 51, 59);
+    padding: 8px;
+    border-bottom: 5px solid yellow;
+    border-top: 5px solid yellow;
+ }
+ /*table row */
+
+td{
+    color:khaki ;
+    border-style: dotted;
+    padding: 11px;
+}
